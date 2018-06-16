@@ -17,9 +17,11 @@ class Toggle extends React.Component {
 
   render() {
     return (
+      <div className='buttonContainer'>
       <button onClick={this.handleClick}>
         {this.state.isToggleOn ? 'ON' : 'OFF'}
       </button>
+      </div>
     );
   }
 }
